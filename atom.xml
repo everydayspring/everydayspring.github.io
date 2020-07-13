@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-11T12:04:55.397Z</updated>
+  <updated>2020-07-13T07:33:29.842Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo 시작하기</title>
+    <link href="http://yoursite.com/2020/07/13/hexo/start/"/>
+    <id>http://yoursite.com/2020/07/13/hexo/start/</id>
+    <published>2020-07-13T06:40:07.000Z</published>
+    <updated>2020-07-13T07:33:29.842Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="준비하기"><a href="#준비하기" class="headerlink" title="준비하기"></a>준비하기</h2><ul><li><a href="https://ide.goorm.io/">구름IDE 가입</a></li><li><a href="https://github.com/">github 가입</a></li></ul><h2 id="구름IDE-컨테이너-만들기"><a href="#구름IDE-컨테이너-만들기" class="headerlink" title="구름IDE 컨테이너 만들기"></a>구름IDE 컨테이너 만들기</h2><ul><li>로그인</li><li>대시보드 -&gt; 새 컨테이너 생성</li><li>소프트웨어 스택 ‘Node.js’ 선택</li></ul><h2 id="hexo-설치"><a href="#hexo-설치" class="headerlink" title="hexo 설치"></a>hexo 설치</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g npm // npm 버전 업그레이드</span><br><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ hexo init hexoblog</span><br><span class="line"></span><br><span class="line">$ <span class="built_in">cd</span> hexoblog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure><h2 id="hexo-테마-다운로드"><a href="#hexo-테마-다운로드" class="headerlink" title="hexo 테마 다운로드"></a>hexo 테마 다운로드</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes</span><br><span class="line">$ git <span class="built_in">clone</span> [원하는 테마의 github 링크]</span><br></pre></td></tr></table></figure><h2 id="hexo-테마-적용"><a href="#hexo-테마-적용" class="headerlink" title="hexo 테마 적용"></a>hexo 테마 적용</h2><ul><li>_config.yml</li></ul><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">[clone한</span> <span class="string">폴더명]</span></span><br></pre></td></tr></table></figure><h2 id="글-작성하기"><a href="#글-작성하기" class="headerlink" title="글 작성하기"></a>글 작성하기</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post <span class="string">'title'</span></span><br></pre></td></tr></table></figure><h2 id="구름IDE에서-호스팅하기"><a href="#구름IDE에서-호스팅하기" class="headerlink" title="구름IDE에서 호스팅하기"></a>구름IDE에서 호스팅하기</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server -p 3000</span><br></pre></td></tr></table></figure><h2 id="Github-repository-생성"><a href="#Github-repository-생성" class="headerlink" title="Github repository 생성"></a>Github repository 생성</h2><p>‘[github_id].github.io’ 로 새로운 repository를 생성합니다</p><h2 id="Github-연동"><a href="#Github-연동" class="headerlink" title="Github 연동"></a>Github 연동</h2><ul><li>_config.yml</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: [생성한 git repository 주소 (.io까지)]</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><h2 id="Github-배포"><a href="#Github-배포" class="headerlink" title="Github 배포"></a>Github 배포</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name [내 이름]</span><br><span class="line">$ git config --global user.email [github 계정]</span><br><span class="line"></span><br><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>참고 : <a href="https://www.youtube.com/watch?v=8uRgIwgumqA">카인드 패밀리 유튜브</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;준비하기&quot;&gt;&lt;a href=&quot;#준비하기&quot; class=&quot;headerlink&quot; title=&quot;준비하기&quot;&gt;&lt;/a&gt;준비하기&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ide.goorm.io/&quot;&gt;구름IDE 가입&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="헥소" scheme="http://yoursite.com/tags/%ED%97%A5%EC%86%8C/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="github블로그" scheme="http://yoursite.com/tags/github%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
+    
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+      <category term="헥소 블로그" scheme="http://yoursite.com/tags/%ED%97%A5%EC%86%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/07/11/hello-world/"/>
-    <id>http://yoursite.com/2020/07/11/hello-world/</id>
-    <published>2020-07-11T12:04:55.397Z</published>
-    <updated>2020-07-11T12:04:55.397Z</updated>
+    <link href="http://yoursite.com/2020/07/13/hexo/hello-world/"/>
+    <id>http://yoursite.com/2020/07/13/hexo/hello-world/</id>
+    <published>2020-07-13T04:40:07.000Z</published>
+    <updated>2020-07-13T07:33:56.747Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -35,6 +71,12 @@
     </summary>
     
     
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="헥소" scheme="http://yoursite.com/tags/%ED%97%A5%EC%86%8C/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
   </entry>
   
