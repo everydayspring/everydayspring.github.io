@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2020/07/13/R/01start/</loc>
+    <loc>http://yoursite.com/2020/07/14/etc-2020-07-14-PleaseGit/</loc>
+    
+    <lastmod>2020-07-14T02:41:31.747Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/07/13/hexo-2020-07-13-HexoStart/</loc>
+    
+    <lastmod>2020-07-13T23:43:57.451Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/07/13/R-2020-07-13-Rstart/</loc>
     
     <lastmod>2020-07-13T11:53:07.208Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/07/13/hexo/hello-world/</loc>
+    <loc>http://yoursite.com/2020/07/13/hexo-hello-world/</loc>
     
     <lastmod>2020-07-13T07:33:56.747Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/07/13/hexo/start/</loc>
-    
-    <lastmod>2020-07-13T07:33:29.842Z</lastmod>
     
   </url>
   
