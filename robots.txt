@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leebom952.github.io/sitemap.xml
