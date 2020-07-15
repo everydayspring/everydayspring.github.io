@@ -9,7 +9,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>description</description>
-    <pubDate>Tue, 14 Jul 2020 13:48:03 GMT</pubDate>
+    <pubDate>Wed, 15 Jul 2020 06:39:45 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -19,8 +19,48 @@
       <pubDate>Tue, 14 Jul 2020 13:12:40 GMT</pubDate>
       <description>
       
+        데이터 프레임 이해하기
+이름영어 점수수학 점수김지훈9050이유진8060박동현60100김민지7020‘열’ 속성 / ‘행’ 한 사람의 정보
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+
+
+english &lt;- c(90, 80, 60, 70)
+english
+
+math &lt;- c(50, 60, 100, 20)
+math
+
+class &lt;- c(1, 1, 2, 2)
+class
+
+df_midterm &lt;- data.frame(english, math, class)
+df_midterm
+
+mean(df_midte
+      
       </description>
       
+      
+      <content:encoded><![CDATA[<h2 id="데이터-프레임-이해하기"><a href="#데이터-프레임-이해하기" class="headerlink" title="데이터 프레임 이해하기"></a>데이터 프레임 이해하기</h2><table><thead><tr><th align="center"><strong>이름</strong></th><th align="center"><strong>영어 점수</strong></th><th align="center"><strong>수학 점수</strong></th></tr></thead><tbody><tr><td align="center">김지훈</td><td align="center">90</td><td align="center">50</td></tr><tr><td align="center">이유진</td><td align="center">80</td><td align="center">60</td></tr><tr><td align="center">박동현</td><td align="center">60</td><td align="center">100</td></tr><tr><td align="center">김민지</td><td align="center">70</td><td align="center">20</td></tr></tbody></table><p>‘열’ 속성 / ‘행’ 한 사람의 정보</p><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">english &lt;- c(<span class="number">90</span>, <span class="number">80</span>, <span class="number">60</span>, <span class="number">70</span>)</span><br><span class="line">english</span><br><span class="line"></span><br><span class="line">math &lt;- c(<span class="number">50</span>, <span class="number">60</span>, <span class="number">100</span>, <span class="number">20</span>)</span><br><span class="line">math</span><br><span class="line"></span><br><span class="line">class &lt;- c(<span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>)</span><br><span class="line">class</span><br><span class="line"></span><br><span class="line">df_midterm &lt;- data.frame(english, math, class)</span><br><span class="line">df_midterm</span><br><span class="line"></span><br><span class="line">mean(df_midterm$english)</span><br><span class="line">mean(df_midterm$math)</span><br><span class="line"></span><br><span class="line">df_midterm &lt;- data.frame(english = c(<span class="number">90</span>, <span class="number">80</span>, <span class="number">60</span>, <span class="number">70</span>),</span><br><span class="line">                         math = c(<span class="number">50</span>, <span class="number">60</span>, <span class="number">100</span>, <span class="number">20</span>),</span><br><span class="line">                         class = c(<span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>))</span><br><span class="line">df_midterm</span><br></pre></td></tr></table></figure><h2 id="외부-데이터-가져오기"><a href="#외부-데이터-가져오기" class="headerlink" title="외부 데이터 가져오기"></a>외부 데이터 가져오기</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">install.packages(<span class="string">"readxl"</span>)</span><br><span class="line"><span class="keyword">library</span>(readxl)</span><br><span class="line"></span><br><span class="line">getwd()     <span class="comment"># 웨킹 디렉토리 확인</span></span><br><span class="line"></span><br><span class="line">df_exam &lt;- read_excel(<span class="string">"excel_exam.xlsx"</span>)</span><br><span class="line">df_exam</span><br><span class="line"></span><br><span class="line">mean(df_exam$english)</span><br><span class="line">mean(df_exam$science)</span><br><span class="line"></span><br><span class="line">df_exam_novar &lt;- read_excel(<span class="string">"excel_exam_novar.xlsx"</span>, col_names = <span class="literal">F</span>)</span><br><span class="line">df_exam_novar</span><br><span class="line"></span><br><span class="line">df_exam_sheet &lt;- read_excel(<span class="string">"excel_exam_sheet.xlsx"</span>, sheet = <span class="number">3</span>)</span><br><span class="line">df_exam_sheet</span><br><span class="line"></span><br><span class="line">df_csv_exam &lt;- read.csv(<span class="string">"csv_exam.csv"</span>)</span><br><span class="line">df_csv_exam &lt;- read.csv(<span class="string">"csv_exam.csv"</span>, stringsAsFactors = <span class="literal">F</span>)</span><br><span class="line">df_csv_exam</span><br></pre></td></tr></table></figure><h2 id="데이터-내보내기"><a href="#데이터-내보내기" class="headerlink" title="데이터 내보내기"></a>데이터 내보내기</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">df_midterm &lt;- data.frame(english = c(<span class="number">90</span>, <span class="number">80</span>, <span class="number">60</span>, <span class="number">70</span>),</span><br><span class="line">                         math = c(<span class="number">50</span>, <span class="number">60</span>, <span class="number">100</span>, <span class="number">20</span>),</span><br><span class="line">                         class = c(<span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>))</span><br><span class="line">df_midterm</span><br><span class="line"></span><br><span class="line">write.csv(df_midterm, file = <span class="string">"df_midterm.csv"</span>)</span><br></pre></td></tr></table></figure><h2 id="RData파일-활용하기"><a href="#RData파일-활용하기" class="headerlink" title="RData파일 활용하기"></a>RData파일 활용하기</h2><ul><li>R 전용 데이터 파일</li><li>용량 작고 빠름</li></ul><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">save(df_midterm, file = <span class="string">"df_midterm.rda"</span>)</span><br><span class="line"></span><br><span class="line">rm(df_midterm)</span><br><span class="line"></span><br><span class="line">df_midterm</span><br><span class="line"></span><br><span class="line">load(<span class="string">"df_midterm.rda"</span>)</span><br><span class="line"></span><br><span class="line">df_midterm</span><br><span class="line"></span><br><span class="line"><span class="comment"># 변수에 할당</span></span><br><span class="line">df_exam &lt;- read_excel(<span class="string">"excel_exam.xlsx"</span>)</span><br><span class="line">df_csv_exam &lt;- read.csv(<span class="string">"csv_exam.csv"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Rda 파일 : 데이터 프레임 자동 생성</span></span><br><span class="line">load(<span class="string">"df_midterm.rda"</span>)</span><br></pre></td></tr></table></figure>]]></content:encoded>
       
       <comments>http://leebom952.github.io/2020/07/14/R-2020-07-14-Data-Frame/#disqus_thread</comments>
     </item>
