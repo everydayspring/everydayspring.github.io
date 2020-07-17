@@ -9,11 +9,24 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>description</description>
-    <pubDate>Fri, 17 Jul 2020 02:44:14 GMT</pubDate>
+    <pubDate>Fri, 17 Jul 2020 02:48:40 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>데이터 분석 기초</title>
+      <title>R 데이터 가공하기</title>
+      <link>http://everydayspring.github.io/2020/07/17/R-2020-07-17-data/</link>
+      <guid>http://everydayspring.github.io/2020/07/17/R-2020-07-17-data/</guid>
+      <pubDate>Fri, 17 Jul 2020 02:47:15 GMT</pubDate>
+      <description>
+      
+      </description>
+      
+      
+      <comments>http://everydayspring.github.io/2020/07/17/R-2020-07-17-data/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>R 데이터 분석 기초</title>
       <link>http://everydayspring.github.io/2020/07/15/R-2020-07-15-data/</link>
       <guid>http://everydayspring.github.io/2020/07/15/R-2020-07-15-data/</guid>
       <pubDate>Wed, 15 Jul 2020 06:46:33 GMT</pubDate>
@@ -289,9 +302,9 @@ c &lt;- 3.
     </item>
     
     <item>
-      <title>R준비하기 (R 설치, RStudio 설치, R 스튜디오 설치)</title>
-      <link>http://everydayspring.github.io/2020/07/13/R-2020-07-14-Ready/</link>
-      <guid>http://everydayspring.github.io/2020/07/13/R-2020-07-14-Ready/</guid>
+      <title>R 언어 준비하기 (R 설치, RStudio 설치, R 스튜디오 설치)</title>
+      <link>http://everydayspring.github.io/2020/07/13/R-2020-07-13-Ready/</link>
+      <guid>http://everydayspring.github.io/2020/07/13/R-2020-07-13-Ready/</guid>
       <pubDate>Mon, 13 Jul 2020 10:09:09 GMT</pubDate>
       <description>
       
@@ -310,7 +323,7 @@ RStudio 다운로드 : 자신의 운영체제 선택
       
       <content:encoded><![CDATA[<h2 id="R-설치"><a href="#R-설치" class="headerlink" title="R 설치"></a>R 설치</h2><h3 id="R-사이트-접속"><a href="#R-사이트-접속" class="headerlink" title="R 사이트 접속"></a><a href="https://www.r-project.org/" rel="external nofollow noopener noreferrer" target="_blank">R 사이트 접속</a></h3><h3 id="R-다운로드-자신의-운영체제-선택"><a href="#R-다운로드-자신의-운영체제-선택" class="headerlink" title="R 다운로드 : 자신의 운영체제 선택"></a><a href="http://healthstat.snu.ac.kr/CRAN/" rel="external nofollow noopener noreferrer" target="_blank">R 다운로드</a> : 자신의 운영체제 선택</h3><h3 id="2020-07-14-기준-최신버전-‘R-4-0-2-pkg’"><a href="#2020-07-14-기준-최신버전-‘R-4-0-2-pkg’" class="headerlink" title="2020.07.14 기준 최신버전 ‘R-4.0.2.pkg’"></a>2020.07.14 기준 최신버전 ‘R-4.0.2.pkg’</h3><h3 id="기본설치-진행"><a href="#기본설치-진행" class="headerlink" title="기본설치 진행"></a>기본설치 진행</h3><h2 id="RStudio-설치"><a href="#RStudio-설치" class="headerlink" title="RStudio 설치"></a>RStudio 설치</h2><h3 id="RStudio-사이트-접속"><a href="#RStudio-사이트-접속" class="headerlink" title="RStudio 사이트 접속"></a><a href="https://rstudio.com/" rel="external nofollow noopener noreferrer" target="_blank">RStudio 사이트 접속</a></h3><h3 id="RStudio-다운로드-자신의-운영체제-선택"><a href="#RStudio-다운로드-자신의-운영체제-선택" class="headerlink" title="RStudio 다운로드 : 자신의 운영체제 선택"></a><a href="https://rstudio.com/products/rstudio/download/" rel="external nofollow noopener noreferrer" target="_blank">RStudio 다운로드</a> : 자신의 운영체제 선택</h3><h2 id="설치-완료"><a href="#설치-완료" class="headerlink" title="설치 완료"></a>설치 완료</h2>]]></content:encoded>
       
-      <comments>http://everydayspring.github.io/2020/07/13/R-2020-07-14-Ready/#disqus_thread</comments>
+      <comments>http://everydayspring.github.io/2020/07/13/R-2020-07-13-Ready/#disqus_thread</comments>
     </item>
     
     <item>
