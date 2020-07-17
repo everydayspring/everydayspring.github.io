@@ -9,11 +9,11 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>description</description>
-    <pubDate>Fri, 17 Jul 2020 02:42:58 GMT</pubDate>
+    <pubDate>Fri, 17 Jul 2020 02:44:14 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>데이터 분석 기초 [작성중]</title>
+      <title>데이터 분석 기초</title>
       <link>http://everydayspring.github.io/2020/07/15/R-2020-07-15-data/</link>
       <guid>http://everydayspring.github.io/2020/07/15/R-2020-07-15-data/</guid>
       <pubDate>Wed, 15 Jul 2020 06:46:33 GMT</pubDate>
