@@ -10882,7 +10882,7 @@ article.article .content .message.message-immersive .message-body {
   }
 }
 .navbar-logo img {
-  max-height: 1.75rem;
+  max-height: 6rem;
 }
 @media screen and (max-width: 768px) {
   footer.footer .level-start {
@@ -10900,7 +10900,7 @@ footer.footer .level-end .field {
   }
 }
 .footer-logo img {
-  max-height: 1.75rem;
+  max-height: 6rem;
 }
 .pagination .pagination-link a,
 .pagination .pagination-ellipsis a,
