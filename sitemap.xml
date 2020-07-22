@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://everydayspring.github.io/2020/07/14/R-2020-07-14-Data-Frame/</loc>
+    
+    <lastmod>2020-07-22T01:33:18.761Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://everydayspring.github.io/2020/07/22/test/</loc>
+    
+    <lastmod>2020-07-22T01:31:11.042Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://everydayspring.github.io/2020/07/13/R-2020-07-13-Ready/</loc>
+    
+    <lastmod>2020-07-22T01:30:22.939Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://everydayspring.github.io/2020/07/21/R-2020-07-21-CHAPTER07/</loc>
     
     <lastmod>2020-07-21T07:35:30.791Z</lastmod>
@@ -23,23 +44,9 @@
   </url>
   
   <url>
-    <loc>http://everydayspring.github.io/2020/07/13/R-2020-07-13-Ready/</loc>
-    
-    <lastmod>2020-07-17T02:48:13.508Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://everydayspring.github.io/2020/07/15/R-2020-07-15-data/</loc>
     
     <lastmod>2020-07-17T02:48:09.332Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://everydayspring.github.io/2020/07/14/R-2020-07-14-Data-Frame/</loc>
-    
-    <lastmod>2020-07-15T07:48:33.177Z</lastmod>
     
   </url>
   
