@@ -9,8 +9,28 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>이봄의 새싹 블로그 매일 배우는 중입니다</description>
-    <pubDate>Sun, 30 Aug 2020 06:28:44 GMT</pubDate>
+    <pubDate>Fri, 29 Jan 2021 00:56:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>대학원 준비</title>
+      <link>http://everydayspring.github.io/2021/01/29/etc-2021-01-29-new-step/</link>
+      <guid>http://everydayspring.github.io/2021/01/29/etc-2021-01-29-new-step/</guid>
+      <pubDate>Fri, 29 Jan 2021 00:41:24 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h1 id&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title&gt;&lt;/a&gt;&lt;/h1&gt;
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h1 id><a href="#" class="headerlink" title></a></h1>]]></content:encoded>
+      
+      <comments>http://everydayspring.github.io/2021/01/29/etc-2021-01-29-new-step/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>데이터 분석 프로젝트 &#39;한국인의 삶을 파악하라&#39;</title>
