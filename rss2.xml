@@ -9,7 +9,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>이봄의 새싹 블로그 매일 배우는 중입니다</description>
-    <pubDate>Mon, 29 Mar 2021 06:02:12 GMT</pubDate>
+    <pubDate>Mon, 29 Mar 2021 06:12:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -19,20 +19,17 @@
       <pubDate>Mon, 29 Mar 2021 02:23:18 GMT</pubDate>
       <description>
       
-        Introduction
-Blockchain History
- * Bitcoin (암호화폐 + 지불시스템) : 블록체인 기술을 기반으로 만들어진 온라인 암호화폐
- * Ethereum (암호화폐 + 지불시스템 + 스마트컨트랙트)
- * Hyperledger (데이터베이스 + 스마트컨트랙트)
+        Blockchain History
+ * Bitcoin (암호화폐 + 지불시스템) : 블록체인 기술을 기반으로 만들어진 온라인 암호화폐, 최초의 블록체인
+ * Ethereum (암호화폐 + 지불시스템 + 스마트컨트랙트) : 
+ * Hyperledger (데이터베이스 + 스마트컨트랙트) : 암호화폐의 개념을 빼고 데이터베이스 컨셉을 차용, 주로 기업용 솔루션 제공이 목적
 
-암호화폐(Cryptocurrency) : 분산장부 (Distributed Ledger)에서 공개키 암호화를 통해 안전하게 전송하고, 해시 함수를 이용해 쉽게 소유권을 증명해낼 수 있는 디지털 자산
-
-[출처] wikipedia.org
+암호화폐(Cryptocurrency) : 분산장부 (Distributed Ledger)에서 공개키 암호화를 통해 안전하게 전송하고, 해시 함수를 이용해 쉽게 소유권을
       
       </description>
       
       
-      <content:encoded><![CDATA[<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="Blockchain-History"><a href="#Blockchain-History" class="headerlink" title="Blockchain History"></a>Blockchain History</h3><ul><li>Bitcoin (암호화폐 + 지불시스템) : 블록체인 기술을 기반으로 만들어진 온라인 암호화폐</li><li>Ethereum (암호화폐 + 지불시스템 + 스마트컨트랙트)</li><li>Hyperledger (데이터베이스 + 스마트컨트랙트)</li></ul><blockquote><p>암호화폐(Cryptocurrency) : <strong>분산장부 (Distributed Ledger)</strong>에서 <strong>공개키 암호화</strong>를 통해 안전하게 전송하고, <strong>해시 함수</strong>를 이용해 쉽게 소유권을 증명해낼 수 있는 <strong>디지털 자산</strong></p></blockquote><blockquote><p><em>[출처] wikipedia.org</em></p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="Blockchain-History"><a href="#Blockchain-History" class="headerlink" title="Blockchain History"></a>Blockchain History</h3><ul><li>Bitcoin (암호화폐 + 지불시스템) : 블록체인 기술을 기반으로 만들어진 온라인 암호화폐, 최초의 블록체인</li><li>Ethereum (암호화폐 + 지불시스템 + 스마트컨트랙트) : </li><li>Hyperledger (데이터베이스 + 스마트컨트랙트) : 암호화폐의 개념을 빼고 데이터베이스 컨셉을 차용, 주로 기업용 솔루션 제공이 목적</li></ul><blockquote><p>암호화폐(Cryptocurrency) : <strong>분산장부 (Distributed Ledger)</strong>에서 <strong>공개키 암호화</strong>를 통해 안전하게 전송하고, <strong>해시 함수</strong>를 이용해 쉽게 소유권을 증명해낼 수 있는 <strong>디지털 자산</strong><br>스마트컨트랙트(Smart Contract) :<br><em>[출처] wikipedia.org</em></p></blockquote>]]></content:encoded>
       
       <comments>http://everydayspring.github.io/2021/03/29/Blockchain-2021-03-29-1/#disqus_thread</comments>
     </item>
