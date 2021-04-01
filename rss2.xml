@@ -9,7 +9,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>이봄의 새싹 블로그 매일 배우는 중입니다</description>
-    <pubDate>Wed, 31 Mar 2021 08:25:43 GMT</pubDate>
+    <pubDate>Thu, 01 Apr 2021 07:43:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -19,8 +19,12 @@
       <pubDate>Wed, 31 Mar 2021 08:24:00 GMT</pubDate>
       <description>
       
+        Hyperledger란?
+      
       </description>
       
+      
+      <content:encoded><![CDATA[<h3 id="Hyperledger란"><a href="#Hyperledger란" class="headerlink" title="Hyperledger란?"></a>Hyperledger란?</h3>]]></content:encoded>
       
       <comments>http://everydayspring.github.io/2021/03/31/Blockchain-Hyperledger-2021-03-31-1/#disqus_thread</comments>
     </item>
