@@ -9,7 +9,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>이봄의 새싹 블로그 매일 배우는 중입니다</description>
-    <pubDate>Tue, 06 Apr 2021 04:29:51 GMT</pubDate>
+    <pubDate>Tue, 06 Apr 2021 04:39:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -35,7 +35,7 @@ Distributed and Shared Database
       </description>
       
       
-      <content:encoded><![CDATA[<h3 id="Hyperledger란"><a href="#Hyperledger란" class="headerlink" title="Hyperledger란?"></a>Hyperledger란?</h3><p>스마트 컨트랙트(smart contract)을 구현할 수 있는 오픈소스 기반의 프라이빗 블록체인 프로젝트<br>암호화폐보다는 데이터베이스 관점에서 접근<br><strong>공유 데이터베이스의 새로운 형태</strong> 로써 기업형 비즈니스 환경에서 사용할 수 있도록 블록체인 솔루션을 발전시킨 것<br>Public -&gt; Private</p><h3 id="Distributed-and-Shared-Database"><a href="#Distributed-and-Shared-Database" class="headerlink" title="Distributed and Shared Database"></a>Distributed and Shared Database</h3><p>공유 데이터베이스에서 고려할 사항</p><ul><li>신뢰 : 데이터에 접근할 수 있는 사용자에 대한 신뢰</li><li>충돌 해결 : 동일한 데이터를 수정하는 충돌에 대한 해결</li><li>권한 및 접근 관리 : 접근할 수 있는 사용자와 권한</li></ul><h3 id="Public-Blockchain"><a href="#Public-Blockchain" class="headerlink" title="Public Blockchain"></a>Public Blockchain</h3><p><em>기업형 블록체인에 적합하지 않은 기존의 Public Blockchain</em></p><ul><li>보안 (Confidentiality and privacy)<ul><li>공개된 블록체인, 공개된 데이터</li></ul></li><li>확장성(Scalability)<ul><li>참여하는 모든 노드가 트랜잭션을 처리</li></ul></li><li>지속 불가능한 합의 알고리즘(Unsustainable consensus algorithm)<ul><li>PoW 알고리즘이 불필요하게 연산 리소스를 낭비함</li></ul></li><li>거버넌스 부족(Lack of governance)<ul><li>완전한 탈중앙화 시스템</li></ul></li></ul><h3 id="Private-Blockchain"><a href="#Private-Blockchain" class="headerlink" title="Private Blockchain"></a>Private Blockchain</h3>]]></content:encoded>
+      <content:encoded><![CDATA[<hr><h2 id="Hyperledger란"><a href="#Hyperledger란" class="headerlink" title="Hyperledger란?"></a>Hyperledger란?</h2><p>스마트 컨트랙트(smart contract)을 구현할 수 있는 오픈소스 기반의 프라이빗 블록체인 프로젝트<br>암호화폐보다는 데이터베이스 관점에서 접근<br><strong>공유 데이터베이스의 새로운 형태</strong> 로써 기업형 비즈니스 환경에서 사용할 수 있도록 블록체인 솔루션을 발전시킨 것<br>Public -&gt; Private</p><h2 id="Distributed-and-Shared-Database"><a href="#Distributed-and-Shared-Database" class="headerlink" title="Distributed and Shared Database"></a>Distributed and Shared Database</h2><p>공유 데이터베이스에서 고려할 사항</p><ul><li>신뢰 : 데이터에 접근할 수 있는 사용자에 대한 신뢰</li><li>충돌 해결 : 동일한 데이터를 수정하는 충돌에 대한 해결</li><li>권한 및 접근 관리 : 접근할 수 있는 사용자와 권한</li></ul><h2 id="Public-Blockchain"><a href="#Public-Blockchain" class="headerlink" title="Public Blockchain"></a>Public Blockchain</h2><p><em>기업형 블록체인에 적합하지 않은 기존의 Public Blockchain</em></p><ul><li>보안 (Confidentiality and privacy)<ul><li>공개된 블록체인, 공개된 데이터</li></ul></li><li>확장성(Scalability)<ul><li>참여하는 모든 노드가 트랜잭션을 처리</li></ul></li><li>지속 불가능한 합의 알고리즘(Unsustainable consensus algorithm)<ul><li>PoW 알고리즘이 불필요하게 연산 리소스를 낭비함</li></ul></li><li>거버넌스 부족(Lack of governance)<ul><li>완전한 탈중앙화 시스템</li></ul></li></ul><h2 id="Private-Blockchain"><a href="#Private-Blockchain" class="headerlink" title="Private Blockchain"></a>Private Blockchain</h2>]]></content:encoded>
       
       <comments>http://everydayspring.github.io/2021/03/31/Blockchain-Hyperledger-2021-03-31-1/#disqus_thread</comments>
     </item>
